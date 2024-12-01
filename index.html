@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="homepage.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="header">
+		<img src="logo.jpg">
+		<h1>Monster Kitchen</h1>
+		<div class="login">
+			<button class="button"><a href="login.html">Log In</a></button>
+		</div>
+	</div>
+
+	<nav class="link">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">ABOUT US</a></li>
+			<li><a href="#">CONTACT US</a></li>
+		</ul>
+		<form>
+			<input type="text" placeholder="Search">
+		</form>
+	</nav>
+
+	<div class="slide-gallery">
+		<div class="mySlides fade">
+			<img src="image1.jpg">
+		</div>
+		<div class="mySlides fade">
+			<img src="image2.jpg">
+		</div>
+		<div class="mySlides fade">
+			<img src="image3.jpg">
+		</div>
+	</div>
+
+	<div class="gallery-container">
+		<div class="gallery">
+			<a href="join1.jpg">
+				<img src="join1.jpg" width="600" height="400">
+			</a>
+			<a href="#" class="desc">Apply Now</a>
+		</div>	
+		<div class="gallery">
+			<a href="join2.jpg">
+				<img src="join2.jpg" width="600" height="400">
+			</a>
+			<a href="#" class="desc">Apply Now</a>
+		</div>
+		<div class="gallery">
+			<a href="join3.jpg">
+				<img src="join3.jpg" width="600" height="400">
+			</a>
+			<a href="#" class="desc">Apply Now</a>
+		</div>
+		<div class="gallery">
+			<a href="join4.jpg">
+				<img src="join4.jpg" width="600" height="400">
+			</a>
+			<a href="#" class="desc">Apply Now</a>
+		</div>
+	</div>
+
+  <div class="embed">
+    <iframe width="960" height="515" src="https://www.youtube.com/embed/336PCwrEHX4?si=z3uYfTs-CE97X8oA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ 
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15784.912067010508!2d124.63811911738277!3d8.477195800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff2d0e8012589%3A0x7c8dd5b92313dbb0!2sMonster%20Kitchen%20Mortola%20Branch!5e0!3m2!1sen!2sph!4v1732521078526!5m2!1sen!2sph" width="960" height="515"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+ <div class="icons">
+		<h1>Visit Us:</h1>
+		<a href="https://www.facebook.com/monsterkitchenretailstore?mibextid=ZbWKwL" class="fa fa-facebook"></a>
+		<a href="https://www.instagram.com/monsterkitchenacademy?igsh=MTdnN3NlbjBmMzVn" class="fa fa-instagram"></a>
+		<a href="#" class="fa fa-google"></a>
+		<a href="https://www.youtube.com/@MonsterKitchenStore" class="fa fa-youtube"></a>
+	</div>
+
+	<script type="text/javascript">
+		let slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			let i;
+			let slides = document.getElementsByClassName("mySlides");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) { slideIndex = 1; }
+			slides[slideIndex - 1].style.display = "block";
+			setTimeout(showSlides, 4000);
+		}
+	</script>
+</body>
+</html>	

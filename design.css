@@ -1,0 +1,125 @@
+body{
+	background-color: deeppink;
+	width: 1840px;
+}
+.header img{
+	border-radius: 1000px;
+	position: absolute;
+	left: 80px;
+	top:20px;
+	border:5px solid deeppink;
+}
+
+input[type=text] {
+    width: 920px;
+    box-sizing: border-box;
+    border:2px solid black;
+    border-radius: 100px;
+    background-image: url('search.png');
+    background-size: 32px;
+    background-position: 870px;
+    background-repeat: no-repeat;
+    padding: 12px 24px;
+    margin-left: 400px;
+    font-size: 27px;
+    position: absolute;
+    top: 50px;
+}
+.leftside {
+    background-color: #08E8DE;
+    height: 680px;
+    width: 85px;
+    border-radius: 50px;
+    margin-left: -300px;
+    margin-top: 300px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;  
+
+    
+}
+
+.sidebar {
+    background-color: white;
+    width: 370px;
+    height: 1010px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 170px;
+    margin-top: 65px;
+    width: 210px;
+}
+
+.sidebar i {
+    font-size: 31px;
+    margin-right: 20px;
+    margin-top: 5px;
+    color: black;
+}
+.main h1{
+	margin-top: -890px;
+	margin-left: 420px;
+	font-size: 50px;
+}
+.stats{
+	display: inline flex;
+	align-items: center;
+	margin-left: 420px;
+	gap: 85px;
+	font-size: 30px;
+}
+.stats h3,p{
+	text-align: center;
+}
+.statbox{
+	background-color: #C3C7F4;
+	align-items: center;
+	width: 350px;
+	height: 170px;
+	border-radius: 50px;
+}
+.transactions {
+	width: 87%;
+	height: auto;
+    margin-top: 70px;
+    margin-left: 400px;
+    font-size: 30px;
+}
+
+.transactions h2{
+	width: 30%;
+	background-color:#C3C7F4;
+    text-align: center;
+    margin-left: 455px;
+    border-radius: 28px;
+}
+
+table {
+    width: 80%;
+    margin-top: 10px;
+    font-size: 30px;
+    background-color:#C0C0C0;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 2px solid black;
+}
+
+table th {
+    background-color:#08E8DE ;
+    text-align: center;
+}
+

@@ -1,0 +1,176 @@
+*{
+    background-color: deeppink;
+
+}
+.header{
+    background-color:#0096d6;
+    height: 190px;
+}
+.header img{
+	margin-left: 56px;
+	margin-top: 10px;
+	border-radius: 150px;
+	border: 3px solid deeppink;
+	height:150px;
+}
+.header h1{
+	margin-left: 235px;
+	margin-top: -108px;
+	font-family: cursive;
+    background-color: #0096d6;
+}
+.login button{
+	width: 130px;
+	height: 50px;
+	float: right;
+	margin-right: 100px;
+	margin-top: -100px;
+	font-size: 25px;
+	border: none;
+	background-color: deeppink;
+    border-radius: 30px;
+}
+.login a{
+	text-decoration: none;
+	color:black;	
+}
+.link a{
+	text-decoration: none;
+	color: black;
+    text-align: center;
+	font-size: 25px;
+    width: 180px;
+    background-color: #E3AADD;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.link li{
+	display: inline flex;
+	list-style-type: none;
+	margin-left:70px;
+	padding-right: 40px;
+}	
+input[type=text] {
+    width: 20%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    background-image: url('search.png');  
+    background-size: 27px;
+    background-position: 97%;
+    background-repeat: no-repeat;
+    padding: 13px 12px;
+    font-size: 20px;
+    float: right;
+    margin-top: -60px;
+    margin-right: 40px;
+}
+.slide-gallery{
+	margin-top: 40px;
+	border-radius: 50px;	
+}
+.slide-gallery img{
+	border-radius: 50px;
+	width:100%;
+	height: 500px;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 190px; 
+    margin-top: 50px; 
+}
+
+.gallery {
+    border: 3px solid black;
+    width: 380px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 15px; 
+}
+
+.gallery img {
+    width: 375px;
+    height:auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: white;
+}
+.gallery a{
+    background-color: white;
+    color: black;
+    display: block; 
+    font-size: 35px;
+}
+
+a.desc {
+    text-decoration: none;
+    background-color: #E3AADD;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 50px;    
+    
+}
+
+.embed{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   gap: 180px; 
+  
+}
+.icons{
+	background-color: deeppink;
+	text-align: center;
+	font-size: 45px;
+	height: 200px;
+
+
+}
+.icons h1{
+	color: white;
+	font-size: 45px;
+    margin-top: 65px;	
+}
+
+.fa {
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-right:40px;
+  margin-top: 20px;
+  border-radius: 100%;
+ 
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: orangered;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
